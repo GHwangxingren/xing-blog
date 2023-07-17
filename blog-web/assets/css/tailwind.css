@@ -1,0 +1,29 @@
+@tailwind base;
+/* .aa {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+} */
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .line-clamp-2 {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .h-230 {
+    height: 230px !important;
+  }
+  .h-230 {
+    height: 230px !important;
+  }
+  .rotate-transition {
+    transition: filter 375ms ease-in .2s,transform .3s;
+  }
+  .rotate-360 {
+    transform: rotate(360deg);
+  }
+}
